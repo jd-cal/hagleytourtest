@@ -4,7 +4,7 @@ body {
     background-image:
         url("assets/ui/hellohagley.png");
         /*linear-gradient(rgba(0,0,0,0.45),
-        rgba(0,0,0,0.45)),    these are used to dim the image*/
+        rgba(0,0,0,0.45)),    used to dim the bg image*/
     background-size: cover;
     background-position: center;
     font-family: "Arial", sans-serif;
@@ -70,3 +70,4 @@ body {
 .overlay {
     padding: 40px;
 }
+

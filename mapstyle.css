@@ -1,0 +1,26 @@
+.map {
+  position: relative;
+  width: 50%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.map img {
+  width: 100%;
+  display: block;
+}
+
+.spot {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+/* positions */
+.spot1 { top: 35%; left: 40%; }
+.spot2 { top: 60%; left: 55%; }
+.spot3 { top: 25%; left: 70%; }

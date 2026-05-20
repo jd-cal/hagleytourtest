@@ -1,6 +1,6 @@
 pannellum.viewer('viewer', {
     type: 'equirectangular',
-    panorama: 'assets/blendedPanorama.png',
+    panorama: 'assets/blendedPanorama2.png',
     autoLoad: true,
     showControls: true
 });

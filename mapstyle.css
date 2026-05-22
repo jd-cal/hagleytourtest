@@ -1,6 +1,6 @@
 .map {
   position: relative;
-  width: 50%;
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -14,13 +14,22 @@
   position: absolute;
   width: 18px;
   height: 18px;
-  background: red;
+  background: #1298cc;
   border-radius: 50%;
   cursor: pointer;
   transform: translate(-50%, -50%);
 }
 
-/* positions */
-.spot1 { top: 35%; left: 40%; }
-.spot2 { top: 60%; left: 55%; }
-.spot3 { top: 25%; left: 70%; }
+/* positions of clickable dot ...  code might break DO NOT REMOVE the "spot" in .spotXXXXX..*/
+.spotlegoroom { top: 73%; left: 64%; } 
+.spotkitchen { top: 72%; left: 56%; } 
+.spot05 { top: 55%; left: 56%; }
+.spot06 { top: 25%; left: 70%; }
+.spot07 { top: 25%; left: 70%; }
+.spot08 { top: 25%; left: 70%; }
+.spot09 { top: 25%; left: 70%; }
+.spot10 { top: 25%; left: 70%; }
+.spot17 { top: 25%; left: 70%; }
+.spot18 { top: 25%; left: 70%; }
+.spot19 { top: 25%; left: 70%; }
+.spot20 { top: 25%; left: 70%; }

@@ -8,11 +8,9 @@ body {
     height: 60px;
     background: #0099cc;
     color: white;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 0 20px;
 }
 

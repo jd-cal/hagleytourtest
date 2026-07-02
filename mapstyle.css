@@ -1,4 +1,20 @@
 /* contains the design for the wainuku map room selector*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.topbar {
+    height: 60px;
+    background: #0099cc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
 .map { /*size of the map and the device screen can mess up the positions of the buttons need to redo and rethink later*/
   position: relative;
   width: 100%;
@@ -19,7 +35,7 @@
   border: none !important;
   font-size:0;
   transform: translate(-50%, -50%);*/
-  /*next set of lines is to make the button visible*/ 
+  /*next set of lines is to make the button visible -- IDEA: what if i make the buttons transclucent so user still sees button can be clickable*/ 
   background: #1298cc;
   border-radius: 50%;
   cursor: pointer;
@@ -28,14 +44,15 @@
 
 /* positions of clickable dot ...  code might break DO NOT REMOVE the "spot" in .spotXXXXX..*/
 .spotlegoroom { top: 75%; left: 64%; } 
-.spotkitchen { top: 74%; left: 56%; } 
-.spot05 { top: 55%; left: 56%; }
-.spot06 { top: 25%; left: 70%; }
-.spot07 { top: 25%; left: 70%; }
+.spotkitchen { top: 74%; left: 56%; }
+.spot01 { top: 65%; left: 72%; } 
+.spot05 { top: 42%; left: 72%; }
+.spot06 { top: 44%; left: 63%; }
+.spot07 { top: 55%; left: 56%; }
 .spot08 { top: 57%; left: 63%; }
-.spot09 { top: 25%; left: 70%; }
-.spot10 { top: 25%; left: 70%; }
-.spot17 { top: 25%; left: 70%; }
-.spot18 { top: 25%; left: 70%; }
-.spot19 { top: 25%; left: 70%; }
-.spot20 { top: 25%; left: 70%; }
+.spot09 { top: 40%; left: 56%; }
+.spot10 { top: 28%; left: 75%; }
+.spot17 { top: 20%; left: 61%; }
+.spot18 { top: 20%; left: 53%; }
+.spot19 { top: 32%; left: 43.5%; }
+.spot20 { top: 20%; left: 45.5%; }

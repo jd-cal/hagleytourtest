@@ -14,7 +14,7 @@ const viewer = pannellum.viewer('viewer', {
             "pitch": 0, // starting position of viewer 0, 0 for centre of image
             "yaw": 0,
             "type": "equirectangular",
-            "panorama": "assets/360images/centeredPanorama.jpg",
+            "panorama": "assets/360images/gradientbP2.png",
             "hotSpots": [
                 {
                     "pitch": 0, //position of the hotspot next scene button

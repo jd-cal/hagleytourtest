@@ -7,23 +7,33 @@
     <title>Wainuku Interior Viewer</title>
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
-    <link rel="stylesheet" href="viewstyle.css">
+    <link rel="stylesheet" href="css/viewstyle.css">
 </head>
 
 <body>
     <div class="topbar">
-        <h1 onclick="location.href='index.html'" >Interior Viewer</h1>
+        <h1 onclick="location.href='index.html'">Interior Viewer</h1>
         <button id="floorplanButton"
-        onclick="location.href='map.html'">Wainuku Floorplan Map
+        onclick="location.href='map.html'">
+            Wainuku Floorplan Map
         </button>
     </div>
-
+    
     <div id="viewer"></div>
+    <!-- room information display NEEDS WORKING RN need it togglable and have buttons that lead to unclickable hotspots in room (like light switch info) (the js scripts)-->
+    <div id="infoBox" class="collapsed">
+        <button id="infoToggle" onclick="toggleInfo()">
+            Info
+        </button>
+        <div id="infoContent">
+            <h2 id="roomName"></h2>
+            <p id="roomDescription"></p>
+            <div id="pointButtons"></div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
-    <script src="hotspotscript.js"></script>
-
-    <script> /* could add hotspot script here from documentation for nav or do it in the js*/ 
-
-    </script>
+    <script src="js/scenes.js"></script>
+    <script src="js/info.js"></script>
+    <script src="js/hotspot.js"></script>
 </body>
 </html>

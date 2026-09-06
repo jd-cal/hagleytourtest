@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+.topbar {
+    height: 60px;
+    background: #0099cc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#viewer {
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+/*infopanel buttons :D*/
+#pointButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.pointButton {
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 15px;
+}
+.pointButton:hover {
+    opacity: 0.8;
+}
+
+#infoBox {
+    position: fixed;
+    top: 60px;
+    right: 0;
+
+    width: 320px;
+    height: calc(100vh - 60px);
+
+    background: white;
+
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.2);
+
+    z-index: 100;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* Hidden by default */
+#infoBox.collapsed {
+    transform: translateX(270px);
+}
+
+
+/* Info tab */
+#infoToggle {
+    position: absolute;
+
+    left: -60px;
+    top: 20px;
+
+    width: 60px;
+    height: 50px;
+
+    border-radius: 6px 0 0 6px;
+
+    cursor: pointer;
+}
+
+
+/* Content inside panel */
+#infoContent {
+    padding: 25px;
+
+    overflow-y: auto;
+
+    height: calc(100% - 50px);
+}
+
+
+#roomName {
+    margin-top: 0;
+}

@@ -26,13 +26,18 @@ const sceneInfo = {
             {
                 name: "LEGO Display",
                 description: "Information about the LEGO learning area.",
-
                 pitch: 5,
                 yaw: 120
             }
         ]
     }
 };
+
+//func for info panel collapse
+function toggleInfo() {
+    const infoBox = document.getElementById("infoBox");
+    infoBox.classList.toggle("collapsed");
+}
 //func for update info panel for viewer variable in hotspot.js
 function updateInfo(sceneID) {
     const scene = sceneInfo[sceneID];

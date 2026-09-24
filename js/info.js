@@ -16,7 +16,13 @@ const sceneInfo = {
                 description: "Information about this part of the kitchen.",
                 pitch: 0,
                 yaw: -45
-            }
+            },
+            {
+                name: "next room",
+                description: "Toward the next room.",
+                pitch: 0,
+                yaw: 0
+            },
         ]
     },
     scene2: {

@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f0f0f0;
+    background: White;
 }
 
 .topbar {
@@ -36,8 +36,9 @@ body {
   font-size:0;
   transform: translate(-50%, -50%);*/
   /*next set of lines is to make the button visible -- IDEA: what if i make the buttons transclucent so user still sees button can be clickable*/ 
-  background: #1298cc;
-  border-radius: 50%;
+  background: #ff000065; /*tip: #acb3b680 is a semi-transparent color (#acb3b6) with the extra 80 part as percentage of how transparent */
+  border-radius: 10%; /*0% turns buttons into squares, higher % is more circular*/
+  backdrop-filter: blur(0.3px); /*cool frosted ahh glass*/
   cursor: pointer;
   transform: translate(-50%, -50%);
 }
@@ -48,11 +49,11 @@ body {
 .spot01 { top: 65%; left: 72%; } 
 .spot05 { top: 42%; left: 72%; }
 .spot06 { top: 44%; left: 63%; }
-.spot07 { top: 55%; left: 56%; }
+.spot07 { top: 55%; left: 55.85%; }
 .spot08 { top: 57%; left: 63%; }
-.spot09 { top: 40%; left: 56%; }
+.spot09 { top: 40%; left: 55.85%; }
 .spot10 { top: 28%; left: 75%; }
 .spot17 { top: 20%; left: 61%; }
 .spot18 { top: 20%; left: 53%; }
 .spot19 { top: 32%; left: 43.5%; }
-.spot20 { top: 20%; left: 45.5%; }
+.spot20 { top: 20%; left: 45.7%; }

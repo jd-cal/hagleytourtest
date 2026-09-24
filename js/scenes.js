@@ -6,7 +6,7 @@ scene1: {
     yaw:0,
     type:"equirectangular",
     panorama:
-    "assets/360images/centeredPanorama.jpg",
+    "assets/test360images/centeredPanorama.jpg",
     hotSpots:[// specifically for waypoints to next scene not to be confused with points in info.js
         {
             pitch:0,
@@ -26,7 +26,7 @@ scene2: {
     yaw:50,
     type:"equirectangular",
     panorama:
-    "assets/360images/centeredPanorama2.jpg",
+    "assets/test360images/centeredPanorama2.jpg",
     hotSpots:[]
 }
 };

@@ -1,14 +1,15 @@
+//info panel text stuff and functions
 const sceneInfo = {
     scene1: {
         name: "Kitchen",
         description:
             "A kitchenette area inside Wainuku.",
-        points: [
+        points: [// these are clickable buttons on roominfo panel the user can click instead of manually looking around looking for stuff
             {
                 name: "Light Switch",
                 description: "Information about the light switch.",
                 pitch: 0,//contains position of the hotspot in the scene (x for pitch ,y for yaw), this is used to display information about the hotspot when clicked
-                yaw: 90
+                yaw: 90 // these values can also vary depending on how the image is set up, please make sure all HOTSPOT buttons are put correctly to make this match 
             },
             {
                 name: "Kitchen Area",

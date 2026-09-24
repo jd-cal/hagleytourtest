@@ -1,3 +1,4 @@
+/*css visual for view.html*/
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -46,7 +47,8 @@ button {
     font-family: Arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
-    background: #7cb193;
+    background: #00b050;
+    color: White;
     z-index: 100;
     transition: transform 0.3s ease;
 }
@@ -69,7 +71,7 @@ button {
     font-weight: bold;
 
     color: white;
-    background: #0099cc;
+    background: #00b050;
 
     border-radius: 6px 0 0 6px;
 }

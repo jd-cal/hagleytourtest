@@ -7,6 +7,11 @@ const viewer = pannellum.viewer('viewer', {
     },
     scenes: scenes
 });
+
+// Load information for the starting room for roominfo button
+updateInfo(startScene);
+
+
 function changeScene(event, args) {
     const currentPitch = viewer.getPitch();
     const currentYaw = viewer.getYaw();

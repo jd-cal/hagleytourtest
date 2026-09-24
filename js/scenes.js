@@ -1,5 +1,4 @@
 const scenes = {
-
 scene1: {
     title: "Kitchen",
     hfov:110,
@@ -8,7 +7,7 @@ scene1: {
     type:"equirectangular",
     panorama:
     "assets/360images/centeredPanorama.jpg",
-    hotSpots:[
+    hotSpots:[// specifically for waypoints to next scene not to be confused with points in info.js
         {
             pitch:0,
             yaw:0,
